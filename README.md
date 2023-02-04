@@ -2,6 +2,10 @@
 
 A simple script to simulate and visualiza John Conway's game of life.
 
+<img src="img/main.png"
+     alt="Markdown Monster icon"
+     height="500px" />
+
 ## Description
 
 This project is a very simple and trivial script that simulates and prints the result to the 
