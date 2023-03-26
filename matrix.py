@@ -27,13 +27,3 @@ def is_all_zero(matrix):
             if (matrix[i][j] == 1): return False;
     
     return True;
-
-def is_all_zero_bad(matrix):
-    matrix_size = len(matrix);
-    trobat = True
-
-    for i in range(matrix_size):
-        for j in range(matrix_size):
-            if (matrix[i][j] == 1): trobat = False;
-    
-    return trobat;

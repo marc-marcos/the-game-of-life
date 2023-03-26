@@ -1,14 +1,14 @@
-# Project Title
+# The Game of Life 
 
 A simple script to simulate and visualiza John Conway's game of life.
 
-<img src="img/main.png"
+<img src="img/readme_gif.gif"
      alt="Markdown Monster icon"
-     height="500px" />
+     />
 
 ## Description
 
-This project is a very simple and trivial script that simulates and prints the result to the 
+This project is a very simplescript that simulates and draws the result to a Pygame window to be able to see them.
 
 ## Getting Started
 
@@ -24,17 +24,19 @@ This project is a very simple and trivial script that simulates and prints the r
 
 ### Executing program
 
-* ``python3 index.py``
+* ``python3 index.py <winwo-size-px> <number-of-rows> <delay-in-seconds>``
 
 ## Help
 
-This script at the moment only runs in Unix, running it in Windows will result in errors.
+This script at the moment only runs in Unix, running it in Windows might result in errors.
 
 ## Authors
 [@marc-marcos](https://github.com/marc-marcos)
 
 ## Version History
 
+* 0.3
+    * Pygame implemented, graphical output
 * 0.2
     * Python version, still terminal based, better code
 * 0.1
