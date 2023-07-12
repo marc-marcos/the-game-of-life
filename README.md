@@ -19,8 +19,15 @@ This project is a very simplescript that simulates and draws the result to a Pyg
 
 ### Installing
 
+#### Python version
 * Clone the repository
 * ``pip install -r requirements.txt``
+
+#### C++ version
+* Clone the repository
+* ``sudo apt get install libsfml-dev``
+* (in C++ improved version folder) ``make``
+* ``./output.exe``
 
 ### Executing program
 
@@ -35,12 +42,14 @@ This script at the moment only runs in Unix, running it in Windows might result 
 
 ## Version History
 
-* 0.3
-    * Pygame implemented, graphical output
-* 0.2
-    * Python version, still terminal based, better code
 * 0.1
     * C++ version, very basic
+* 0.2
+    * Python version, still terminal based, better code
+* 0.3
+    * Pygame implemented, graphical output
+* 0.4
+    * C++ graphical version done. Runs ~6.5 times faster than the 0.3 Python version.
 
 ## License
 
