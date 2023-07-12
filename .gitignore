@@ -2,4 +2,5 @@
 test.cc
 test.py
 a.out
-__pycache__
+__pycache__/
+output.exe
